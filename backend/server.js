@@ -11,7 +11,14 @@ const prisma = new PrismaClient()
 const app = express()
 app.use(express.json()) // comando para usar o json no body params
 
-app.use(cors())
+app.use(cors(
+//     {
+//     origin: 'https://cadastro-usuarios-front.onrender.com',
+//     methods: ['GET', 'POST', 'PUT', 'DELETE'],
+//     allowedHeaders: ['Content-Type'],
+// }
+));
+// app.options('*', cors());
 
 const users = []
 
@@ -65,12 +72,12 @@ app.delete('/usuarios/:id', async (req, res) => {
     res.status(200).json({ message: "Usuário deletado com sucesso!" })
 })
 
-// const PORT = process.env.PORT || 3000;
-// app.listen(PORT, () => {
-//   console.log(`Servidor rodando na porta ${PORT}`);
-// });
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Servidor rodando na porta ${PORT}`);
+});
 
-app.listen(3000)
+//app.listen(3000)
 
 // req - requisição
 // res - resposta
