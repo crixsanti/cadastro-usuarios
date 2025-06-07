@@ -1,11 +1,16 @@
 <h1 align="center">Projeto Cadastro de Usuários</h1>
-<p>Uma simples interface de cadastro de usuarios, usando as tecnologias de React no Front-End
+<p>Este é um projeto de uma interface simples para cadastro de usuários, desenvolvido
 <br>
-e Node.js no Back-End.
+com React no front-end e Node.js no back-end.
 <br>
-Um projeto responsivo, tanto para desktop quanto para mobile, 
+A aplicação é responsiva, adaptando-se perfeitamente a dispositivos desktop e
 <br>
-sempre pensando na aprovação dos clientes e usuários!</p>
+mobile, sempre com foco na experiência do usuário e na satisfação do cliente.
+<br>
+Este projeto foi desenvolvido seguindo as boas práticas e metodologias
+<br>
+ensinadas na formação de Desenvolvedores DevClub.
+</p>
 <hr>
 <h2>Tools and languages ​​I used:</h2>
 <ul>
