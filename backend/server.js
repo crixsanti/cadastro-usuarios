@@ -11,12 +11,14 @@ const prisma = new PrismaClient()
 const app = express()
 app.use(express.json()) // comando para usar o json no body params
 
-app.use(cors({
-    origin: 'https://cadastro-usuarios-front.onrender.com',
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type'],
-}));
-app.options('*', cors());
+app.use(cors(
+//     {
+//     origin: 'https://cadastro-usuarios-front.onrender.com',
+//     methods: ['GET', 'POST', 'PUT', 'DELETE'],
+//     allowedHeaders: ['Content-Type'],
+// }
+));
+// app.options('*', cors());
 
 const users = []
 
