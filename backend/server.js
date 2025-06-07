@@ -10,7 +10,10 @@ const prisma = new PrismaClient()
 
 const app = express()
 app.use(express.json()) // comando para usar o json no body params
-app.use(cors())
+
+app.use(cors({
+  origin: 'https://cadastro-usuarios-ivory.vercel.app/'  // <== substitua aqui se quiser restringir
+}))
 
 const users = []
 
