@@ -5,7 +5,7 @@ com React no front-end e Node.js no back-end.
 <br>
 A aplicação é responsiva, adaptando-se perfeitamente a dispositivos desktop e
 <br>
-mobile, sempre com foco na experiência do usuário e na satisfação do cliente.
+mobile, sempre com foco na experiência do usuário.
 <br>
 Este projeto foi desenvolvido seguindo as boas práticas e metodologias
 <br>
